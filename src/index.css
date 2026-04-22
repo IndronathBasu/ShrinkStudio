@@ -36,9 +36,16 @@ body {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid var(--glass-border);
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
   position: relative;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .glass-card {
+    border-radius: 2rem;
+  }
 }
 
 .glow-bg {
